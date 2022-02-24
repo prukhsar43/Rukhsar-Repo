@@ -1,0 +1,105 @@
+.container{
+
+    width:400px;
+    height:600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+       
+}
+
+.Mainbox{
+    width:50%;
+    height: 50%;
+      
+}
+
+#MainBox1{
+    background-color: #ccc;
+    position: relative;
+}
+
+#red{
+    background-color: red;
+    position:absolute;
+}
+
+
+#orange{
+    background-color: orange;
+    position: absolute;
+    right: 0px;  
+}
+
+#MainBox2{ 
+
+    background-color: #e86f88
+    ;
+    position: relative;
+    display: flex;
+}
+
+#steelblue{
+    background-color: steelblue;
+    position:absolute;
+    align-self: flex-end;
+
+
+}
+#coral{
+    background-color:blue;
+    position: absolute;
+    right: 1px;
+
+}
+
+#MainBox3{
+       
+    background-color: #79badb;
+
+    display: flex;
+}
+
+#blue{
+    background-color:purple;
+}
+
+#purple{
+    background-color:coral;
+      margin-left: 90px;
+      align-self:flex-end;
+}
+
+
+#MainBox4{
+
+    background-color: #a2dbb1;
+    display: flex;
+    align-items:flex-end;
+    position: relative;
+    
+
+}
+#gray{
+    background-color: gray;
+    position:absolute;
+     
+    
+}
+#lastred{
+
+    background-color: red;
+    position: absolute;
+     right: 0px;
+     
+}
+
+
+.Smallbox{
+
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+}
+

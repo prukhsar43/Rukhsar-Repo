@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Popins' ,sans-serif;
+ 
+}
+ 
+  body{
+
+    display:flex;  
+    background: url("Images/DatingNav.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: 100%;
+    /* padding: 10px; */
+    justify-content: center;
+    height: 100vh;
+    overflow-wrap: normal;
+    backdrop-filter: blur(5px);
+
+    
+  }
+
+  
+   
+    .container{
+      max-width: 700px;
+      padding: 10px;
+      background-color: #d1e6e273;
+      border-radius: 5px;
+    
+      
+    }
+     
+     
+    .title{
+    color:#e60954;
+      font-size: 20px;
+      position: relative;
+      /* font-weight: 500; */
+
+    }
+
+
+
+
+    .user-detail{
+      padding: 20px;
+      
+    }
+
+   .input-box{
+         
+      justify-content: space-between;
+      display: inline-block;
+      padding: 10px;
+      width: 300px;
+      margin-left: 10px;
+      margin-top: 5px;
+      
+    }
+
+    
+
+    .input{
+
+      border-style: groove;
+      width: 100%;
+      height: 20px;
+      border-radius: 5px;
+      background-color: #d0e2db ;
+      padding: 13px; 
+      
+    }
+    input:required {
+      border-color: #800000;
+      border-width: 3px;
+    }
+
+    .detail{
+      color: rgb(40 39 38);
+      font-weight:bold;
+      width: 100%;
+    }
+
+    .category{
+      display: flex;
+      margin-left: 10px;
+      padding: 10px;
+
+
+
+    }
+
+    .optiongender{
+      size: 10px;
+    }
+
+    .genderdetail{
+      display: inline-block;
+      margin-left: 20px;
+      width: 300px;
+
+      
+    }
+
+
+
+    label{
+
+      display: flex;
+    }
+    
+    
+
+
+    .button{
+      background-color: rgb(225 38 95 / 78%);
+      border:none;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      font-size: 18px;
+      height: 30px;
+      width: 100%;
+      font-weight: 500;
+      font-weight: bold;
+      margin-top: 20px;
+      
+    }
+   input:hover{
+     background-color:rgb(252, 240, 242);
+   }
+  .textarea{
+    border-radius: 5px;
+    background-color:rgb(252, 240, 242);;
+    border-style: groove;
+    width:100%;
+    height: 130px;
+    padding: 10px;
+    background-color: #d0e2db;
+    
+
+  }
+  .textarea:hover{
+     background-color:rgb(252, 240, 242);
+  }
+  .btnhover>input:hover{
+    background-color: rgb(243 13 81 / 78%);
+  }
+   
+
+
+
+ 
+
+
+  

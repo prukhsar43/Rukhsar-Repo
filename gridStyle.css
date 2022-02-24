@@ -1,0 +1,164 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: url("Images/DatingNav.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: rgb(10 10 46);
+    
+    
+}
+
+.container{
+     
+     position: sticky;
+     top: 3px;
+    
+    
+
+}
+.left{
+
+    
+    display: inline-block;
+    position: absolute;
+     left: 30px;
+    top:20px;
+  
+    
+
+}
+
+.left img{
+    width: 118px;
+    height: 91px;
+    
+}
+
+.left div{
+    text-align: center;
+    color:coral;
+}
+
+ 
+
+.mid{
+
+ 
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    position: sticky;
+    
+    
+
+
+}
+
+.navbar{
+
+    display: inline-block;
+}
+
+.navbar li{
+
+    display: inline-block;
+}
+
+.navbar li a{
+
+    color: white;
+    text-decoration: none;
+    padding: 35px 20px;
+    font-size: 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+
+    text-decoration: underline;
+    color: grey;
+
+     
+}
+
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top:20px;
+    
+    
+
+}
+
+.right button{  
+    padding: 4px;
+    color: white;
+    background-color:#dd423d;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+button:hover{
+    background-color: rgb(15, 14, 14);
+    cursor: pointer;
+    text-size-adjust: 10px;
+}
+
+.cntcontainer{
+    margin-bottom: 50px;; 
+    margin-top: 800px;
+    margin-left:25%;
+    padding: 10px;
+    border: 1px solid green;
+    width: 500px;
+    justify-content: center;
+    color: white;
+    
+
+
+}
+
+.input-group{
+    width: 200px;
+    margin: 10px auto;
+   text-align: center;
+
+}
+
+.input-group input{
+    width:300px;
+ 
+     
+}
+
+.input-group textarea{
+
+    width: 300px;
+    height: 100px;
+}
+
+
+
+.cntcontainer button{
+    width: 300px;
+    margin-left:140px; 
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 4px;
+    color: white;
+    background-color:#dd423d;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
